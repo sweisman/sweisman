@@ -23,15 +23,15 @@ These independent projects demonstrate my application of AI-assisted software en
 
 These projects were developed or substantially reengineered using AI coding agents, primarily Claude Code and Codex.
 
-## Earlier Systems Engineering
+## Systems Engineering & Commercial Middleware
 
-My public repositories also include preserved professional and independent work in systems programming, hardware integration, networking, and data processing.
+My public repositories include middleware developed for InsuranceCopilot, a commercial SaaS platform I founded and operated for insurance agencies, serving 25+ paying customers at peak. They also include preserved professional and independent work in systems programming, hardware integration, networking, and data processing.
 
 | Project | Engineering focus |
 | --- | --- |
+| **[Cuttlefish](https://github.com/sweisman/cuttlefish)** · C | Cross-platform networking middleware developed for InsuranceCopilot. Windows/Linux reverse-tunnel architecture featuring framed communication, mutual TLS, remote command execution, file transfer, and TCP forwarding. |
+| **[Oddie](https://github.com/sweisman/oddie)** · C | Database integration middleware developed for InsuranceCopilot. ODBC query daemon with command-line and streaming request/response interfaces, correlation IDs, compressed results, and result integrity verification. |
 | **[cass-edi](https://github.com/sweisman/cass-edi)** · Forth | A substantial 32-bit Forth test-harness system developed at UC San Diego's Center for Astrophysics and Space Sciences for an Electron Drift Instrument. Incorporates low-level hardware control, DMA acquisition, PID stepper-motor control, automated test execution, data analysis, graphics, and an interactive operator interface. The original professional code is preserved as a historical snapshot. |
-| **[Cuttlefish](https://github.com/sweisman/cuttlefish)** · C | Windows/Linux reverse-tunnel administration toolkit featuring framed communication, mutual TLS, command execution, file transfer, and TCP forwarding. |
-| **[Oddie](https://github.com/sweisman/oddie)** · C | ODBC query daemon with command-line and streaming request/response interfaces, correlation IDs, compressed results, and result hashing. |
 | **[Email Blaster](https://github.com/sweisman/email-blaster)** · Perl | Historical high-throughput SMTP software using Linux epoll system calls directly from Perl, multiprocessing, and event-driven network I/O. Preserved in its original context. |
 
 ## Technical Background
